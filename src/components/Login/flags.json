@@ -1,0 +1,32 @@
+[
+	{
+		"name": "European Union",
+		"icon": "europian-union",
+		"value": "eu"
+	},
+	{
+		"name": "France",
+		"icon": "france",
+		"value": ""
+	},
+	{
+		"name": "Germany",
+		"icon": "germany",
+		"value": ""
+	},
+	{
+		"name": "Canada",
+		"icon": "canada",
+		"value": ""
+	},
+	{
+		"name": "Switzerland",
+		"icon": "switzerland",
+		"value": ""
+	},
+	{
+		"name": "UK",
+		"icon": "uk",
+		"value": ""
+	}
+]
