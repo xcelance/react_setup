@@ -2,6 +2,14 @@
   "name": "vcalc",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "eslint": "^6.6.0",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^11.0.0",
+    "react-scripts": "^3.4.4",
+    "redux-devtools-extension": "^2.13.8"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -32,7 +40,7 @@
   "scripts": {
     "start": "cross-env PORT=3001 react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cross-env PORT=3001 react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
